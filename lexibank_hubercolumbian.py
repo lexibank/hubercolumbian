@@ -13,7 +13,7 @@ from pylexibank.providers import qlc
 
 @attr.s
 class HConcept(Concept):
-    Spanish_gloss = attr.ib(default=None)
+    Spanish_Gloss = attr.ib(default=None)
 
 
 class Dataset(qlc.QLC):
@@ -60,10 +60,10 @@ class Dataset(qlc.QLC):
 
                 ds.add_language(
                     ID=language,
-                    name=language,
-                    iso=iso,
-                    glottocode=self.glottolog.glottocode_by_iso.get(iso, ''))
-                ds.add_concept(ID=concept, gloss=ceng, conceptset=cid, Spanish_gloss=cspa)
+                    Name=language,
+                    ISO639P3code=iso,
+                    Glottocode=self.glottolog.glottocode_by_iso.get(iso, ''))
+                ds.add_concept(ID=concept, Name=ceng, Concepticon_ID=cid, Spanish_Gloss=cspa)
 
                 for i, (l, c, form, id_) in enumerate(rows):
                     ds.add_lexemes(
