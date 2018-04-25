@@ -6,6 +6,7 @@ import attr
 import lingpy
 from pycldf.sources import Source
 from clldutils.path import Path
+from clldutils.misc import slug
 
 from pylexibank.dataset import Metadata, Concept
 from pylexibank.providers import qlc
@@ -57,17 +58,22 @@ class Dataset(qlc.QLC):
             for (language, concept), rows in grouped_rows(wl):
                 iso = lids[language]
                 cid, ceng, cspa = concepts[concept.lower()]
+                concept = slug(concept)
 
                 ds.add_language(
-                    ID=language,
+                    ID=slug(language),
                     Name=language,
                     ISO639P3code=iso,
                     Glottocode=self.glottolog.glottocode_by_iso.get(iso, ''))
-                ds.add_concept(ID=concept, Name=ceng, Concepticon_ID=cid, Spanish_Gloss=cspa)
+                ds.add_concept(
+                    ID=concept,
+                    Name=ceng,
+                    Concepticon_ID=cid,
+                    Spanish_Gloss=cspa)
 
                 for i, (l, c, form, id_) in enumerate(rows):
                     ds.add_lexemes(
-                        Language_ID=language,
+                        Language_ID=slug(language),
                         Parameter_ID=concept,
                         Value=form,
                         Source=[src.id],
