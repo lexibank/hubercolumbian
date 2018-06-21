@@ -25,8 +25,8 @@ This profile was initially created by Jelena Prokić and then slightly modified 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 92%](https://img.shields.io/badge/BIPA-92%25-green.svg "BIPA: 92%")
-![CLTS SoundClass: 92%](https://img.shields.io/badge/CLTS%20SoundClass-92%25-green.svg "CLTS SoundClass: 92%")
+![BIPA: 95%](https://img.shields.io/badge/BIPA-95%25-green.svg "BIPA: 95%")
+![CLTS SoundClass: 95%](https://img.shields.io/badge/CLTS%20SoundClass-95%25-green.svg "CLTS SoundClass: 95%")
 
 - **Varieties:** 69
 - **Concepts:** 366
@@ -34,6 +34,6 @@ This profile was initially created by Jelena Prokić and then slightly modified 
 - **Synonymy:** 1.18
 - **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 0
-- **Tokens:** 159,817
-- **Segments:** 108 (9 BIPA errors, 9 CTLS sound class errors, 104 CLTS modified)
-- **Inventory size (avg):** 30.35
+- **Tokens:** 158,509
+- **Segments:** 110 (5 BIPA errors, 5 CTLS sound class errors, 105 CLTS modified)
+- **Inventory size (avg):** 33.57

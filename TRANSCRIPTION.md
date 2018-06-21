@@ -5,49 +5,54 @@
 
 | Segment | Occurrence | BIPA | CLTS SoundClass |
 |:----------|-------------:|:-------|:------------------|
-| a | 23731 | ✓ | ✓ |
-| i | 13611 | ✓ | ✓ |
-| e | 9562 | ✓ | ✓ |
-| o | 8993 | ✓ | ✓ |
+| a | 22362 | ✓ | ✓ |
+| i | 12825 | ✓ | ✓ |
+| e | 9006 | ✓ | ✓ |
+| o | 8513 | ✓ | ✓ |
 | k | 7698 | ✓ | ✓ |
-| u | 7374 | ✓ | ✓ |
+| u | 7166 | ✓ | ✓ |
 | n | 5592 | ✓ | ✓ |
 | p | 5331 | ✓ | ✓ |
 | b | 5223 | ✓ | ✓ |
 | h | 5133 | ✓ | ✓ |
 | t | 5110 | ✓ | ✓ |
-| i̵ | 5045 | ? | ? |
+| i̵ | 5039 | ? | ? |
 | r | 5029 | ✓ | ✓ |
 | m | 3862 | ✓ | ✓ |
 | ʔ | 3861 | ✓ | ✓ |
-| d | 3611 | ✓ | ✓ |
-| ã | 3463 | ✓ | ✓ |
+| d | 3610 | ✓ | ✓ |
+| ã | 3451 | ✓ | ✓ |
 | j | 3330 | ✓ | ✓ |
 | w | 3246 | ✓ | ✓ |
 | s | 3080 | ✓ | ✓ |
-| _ | 2978 | ✓ | ✓ |
+| _ | 2975 | ✓ | ✓ |
 | ɯ | 2212 | ✓ | ✓ |
-| ĩ | 1858 | ✓ | ✓ |
+| ĩ | 1855 | ✓ | ✓ |
 | g | 1673 | ✓ | ✓ |
 | õ | 1624 | ✓ | ✓ |
 | l | 1535 | ✓ | ✓ |
 | tʃ | 1418 | ✓ | ✓ |
-| ĩ̵ | 1302 | ? | ? |
+| ĩ̵ | 1301 | ? | ? |
 | kʰ | 1267 | ✓ | ✓ |
 | x | 1194 | ✓ | ✓ |
 | ẽ | 1010 | ✓ | ✓ |
 | ũ | 948 | ✓ | ✓ |
 | ɾ | 897 | ✓ | ✓ |
 | ə | 818 | ✓ | ✓ |
+| aː | 761 | ✓ | ✓ |
 | ts | 628 | ✓ | ✓ |
 | ʃ | 597 | ✓ | ✓ |
 | tʰ | 530 | ✓ | ✓ |
 | pʰ | 510 | ✓ | ✓ |
+| iː | 440 | ✓ | ✓ |
 | ɸ | 431 | ✓ | ✓ |
 | dʒ | 426 | ✓ | ✓ |
 | ɲ | 416 | ✓ | ✓ |
+| � | 410 | ? | ? |
 | β | 403 | ✓ | ✓ |
+| eː | 316 | ✓ | ✓ |
 | kʷ | 310 | ✓ | ✓ |
+| oː | 273 | ✓ | ✓ |
 | z | 212 | ✓ | ✓ |
 | ʒ | 193 | ✓ | ✓ |
 | tsʰ | 185 | ✓ | ✓ |
@@ -55,6 +60,7 @@
 | tʲ | 153 | ✓ | ✓ |
 | ɕ | 136 | ✓ | ✓ |
 | tɕ | 126 | ✓ | ✓ |
+| uː | 126 | ✓ | ✓ |
 | ɗ | 108 | ✓ | ✓ |
 | θ | 99 | ✓ | ✓ |
 | tʃʰ | 98 | ✓ | ✓ |
@@ -62,29 +68,24 @@
 | c | 87 | ✓ | ✓ |
 | ɓ | 81 | ✓ | ✓ |
 | ɛ | 78 | ✓ | ✓ |
-| a: | 71 | ✓ | ✓ |
-| ʊ | 71 | ✓ | ✓ |
 | nʲ | 63 | ✓ | ✓ |
 | dʲ | 62 | ✓ | ✓ |
 | ɯ̃ | 61 | ✓ | ✓ |
+| ʊ | 61 | ✓ | ✓ |
 | n̥ | 58 | ✓ | ✓ |
 | tʲʰ | 58 | ✓ | ✓ |
 | xʲ | 46 | ✓ | ✓ |
 | ɔ | 43 | ✓ | ✓ |
-| i: | 42 | ✓ | ✓ |
 | f | 40 | ✓ | ✓ |
-| e: | 39 | ✓ | ✓ |
 | v | 35 | ✓ | ✓ |
-| o: | 33 | ✓ | ✓ |
 | ᵐb | 33 | ✓ | ✓ |
 | m̥ | 32 | ✓ | ✓ |
 | ɲ̥ | 31 | ✓ | ✓ |
 | ⁿd | 28 | ✓ | ✓ |
 | kʰʲ | 27 | ✓ | ✓ |
-| eⁱ | 26 | ? | ? |
-| i̵: | 26 | ? | ? |
-| u: | 22 | ✓ | ✓ |
-| ɩ | 19 | ? | ? |
+| ei | 26 | ✓ | ✓ |
+| i̵ː | 26 | ? | ? |
+| ɪ | 19 | ✓ | ✓ |
 | æ̃ | 17 | ✓ | ✓ |
 | ɔ̃ | 16 | ✓ | ✓ |
 | æ | 15 | ✓ | ✓ |
@@ -92,6 +93,7 @@
 | pʲ | 11 | ✓ | ✓ |
 | w̃ | 11 | ✓ | ✓ |
 | ə̃ | 10 | ✓ | ✓ |
+| ʌ | 10 | ✓ | ✓ |
 | ᵑg | 9 | ✓ | ✓ |
 | gʷ | 7 | ✓ | ✓ |
 | ou | 7 | ✓ | ✓ |
@@ -99,22 +101,22 @@
 | ɛ̃ | 7 | ✓ | ✓ |
 | βʲ | 7 | ✓ | ✓ |
 | mʲ | 6 | ✓ | ✓ |
-| aⁱ | 5 | ? | ? |
+| ai | 5 | ✓ | ✓ |
 | hʷ | 5 | ✓ | ✓ |
-| pʰʲ | 5 | ✓ | ✓ |
-| � | 3 | ? | ? |
-| ĩ̵: | 2 | ? | ? |
+| pʲʰ | 5 | ✓ | ✓ |
+| ĩ̵ː | 2 | ? | ? |
 | q | 2 | ✓ | ✓ |
-| aᵘ | 1 | ? | ? |
+| au | 1 | ✓ | ✓ |
 | bʰ | 1 | ✓ | ✓ |
 | kʲ | 1 | ✓ | ✓ |
-| õ: | 1 | ✓ | ✓ |
+| õː | 1 | ✓ | ✓ |
 | sʰ | 1 | ✓ | ✓ |
 | tʷʰ | 1 | ✓ | ✓ |
 | y | 1 | ✓ | ✓ |
-| ə: | 1 | ✓ | ✓ |
+| əː | 1 | ✓ | ✓ |
+| ʰd | 1 | ✓ | ✓ |
 
-(108 rows)
+(110 rows)
 
 
 
@@ -131,6 +133,9 @@
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
 |-----:|:-----------|:---------------------------|:----------------|:-------------------------------------------------|
+| 125 | achagua | enin | jaákula | j aː <s> � </s> k u l a |
+| 158 | achagua | gruesothick | mauúnái | m a uː <s> � </s> n a i |
+| 174 | achagua | hombreman | waʃiaálikuéʒi | w a ʃ i aː <s> � </s> l i k u e ʒ i |
 | 381 | awa | achiotebijaachiote | pĩ̵ | p <s> ĩ̵ </s> |
 | 383 | awa | afiladosharp | kwiʧati̵t | k w i tʃ a t <s> i̵ </s> t |
 | 384 | awa | afiladosharp | tiʧati̵t | t i tʃ a t <s> i̵ </s> t |
@@ -154,7 +159,7 @@
 | 491 | awa | dedodelamanofinger | ti̵ppu | t <s> i̵ </s> p p u |
 | 492 | awa | dedodelpietoe | mitti̵ ti̵ppu | m i t t <s> i̵ </s> _ t <s> i̵ </s> p p u |
 | 498 | awa | dondewhere | mi̵nta | m <s> i̵ </s> n t a |
-| 513 | awa | espinillashin | puunti̵ | p u u n t <s> i̵ </s> |
+| 513 | awa | espinillashin | puunti̵ | p uː n t <s> i̵ </s> |
 | 516 | awa | estrechonarrow | si̵p | s <s> i̵ </s> p |
 | 517 | awa | estrechonarrow | si̵pmin | s <s> i̵ </s> p m i n |
 | 518 | awa | estrellastar | ki̵i̵ma | k <s> i̵ </s> <s> i̵ </s> m a |
@@ -216,6 +221,7 @@
 | 754 | awa | vuestrasmanosyourplurhands | u ʧti̵ | u _ tʃ t <s> i̵ </s> |
 | 755 | awa | vulvavulva | pi̵s | p <s> i̵ </s> s |
 | 759 | awa | arboltree | ti̵ | t <s> i̵ </s> |
+| 79 | achagua | comeeat | hiíija | h iː <s> � </s> i j a |
 | 840 | barasana | abajodown | rokáhí̵á | r o k a h <s> i̵ </s> a |
 | 841 | barasana | abejabee | beroabi̵ki̵ | b e r o a b <s> i̵ </s> k <s> i̵ </s> |
 | 842 | barasana | abejabee | beroabĩ̵ | b e r o a b <s> ĩ̵ </s> |
@@ -227,10 +233,6 @@
 | 855 | barasana | amarilloyellow | si̵rí | s <s> i̵ </s> r i |
 | 863 | barasana | aranaspider | bi̵hí̵ | b <s> i̵ </s> h <s> i̵ </s> |
 | 864 | barasana | arcoirisrainbow | bueri bãbĩ̵ | b u e r i _ b ã b <s> ĩ̵ </s> |
-| 867 | barasana | arderburn | ĩ̵hĩ̵́ | <s> ĩ̵ </s> h <s> ĩ̵ </s> |
-| 875 | barasana | barbabeard | risé tí̵ hóá | r i s e _ t <s> i̵ </s> _ h o a |
-| 876 | barasana | barrigabelly | gi̵dáhóá | g <s> i̵ </s> d a h o a |
-| 884 | barasana | brazosuperiorupperarm | riká hi̵dó | r i k a _ h <s> i̵ </s> d o |
 
 (100 rows)
 
