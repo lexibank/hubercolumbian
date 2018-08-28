@@ -34,6 +34,6 @@ This profile was initially created by Jelena Prokić and then slightly modified 
 - **Synonymy:** 1.18
 - **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 0
-- **Tokens:** 158,509
+- **Tokens:** 158,506
 - **Segments:** 110 (5 BIPA errors, 5 CTLS sound class errors, 105 CLTS modified)
-- **Inventory size (avg):** 33.57
+- **Inventory size (avg):** 33.01

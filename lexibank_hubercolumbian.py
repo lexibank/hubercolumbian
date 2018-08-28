@@ -1,12 +1,14 @@
 # coding=utf-8
 from __future__ import unicode_literals, print_function
 from itertools import groupby
+import unicodedata
 
 import attr
 import lingpy
 from pycldf.sources import Source
 from clldutils.path import Path
-from clldutils.misc import slug
+from clldutils.misc import slug, lazyproperty
+from segments import Tokenizer, Profile
 
 from pylexibank.dataset import Metadata, Concept
 from pylexibank.providers import qlc
@@ -19,6 +21,7 @@ class HConcept(Concept):
 
 class Dataset(qlc.QLC):
     dir = Path(__file__).parent
+    id = 'hubercolumbian'
     DSETS = ['huber1992.csv']
     concept_class = HConcept
 
