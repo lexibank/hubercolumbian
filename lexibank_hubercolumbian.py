@@ -11,6 +11,7 @@ from clldutils.misc import slug
 from pylexibank.dataset import Metadata, Concept
 from pylexibank.providers import qlc
 
+from tqdm import tqdm
 
 @attr.s
 class HConcept(Concept):
@@ -21,6 +22,7 @@ class Dataset(qlc.QLC):
     dir = Path(__file__).parent
     DSETS = ['huber1992.csv']
     concept_class = HConcept
+    id = "hubercolumbian"
 
     def cmd_install(self, **kw):
         # column "counterpart_doculect" gives us the proper names of the doculects
@@ -55,7 +57,8 @@ class Dataset(qlc.QLC):
 
         with self.cldf as ds:
             ds.add_sources(src)
-            for (language, concept), rows in grouped_rows(wl):
+            for (language, concept), rows in tqdm(grouped_rows(wl),
+                desc='cldfify', total=len(wl)):
                 iso = lids[language]
                 cid, ceng, cspa = concepts[concept.lower()]
                 concept = slug(concept)

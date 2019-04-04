@@ -1,3 +1,1 @@
-# Orthography Profile
-
-This profile was initially created by Jelena Prokić and then slightly modified for our purpose.
+This dataset comprises 69 language varieties spoken in Columbia. The orthography profile was originally created by Jelena Prokić and further modified for our purposes.
