@@ -23,6 +23,11 @@ setup(
         ]
     },
     install_requires=[
+<<<<<<< HEAD
         'pylexibank>=1.0',
+=======
+        'pylexibank>=0.11',
+        'segments>=2.0.1',
+>>>>>>> 01da4f1c356d420bc453397241232c6588f94c26
     ]
 )
