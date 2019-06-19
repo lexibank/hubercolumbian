@@ -9,6 +9,7 @@
     "dc:license": "http://www.opensource.org/licenses/GPL-3.0",
     "dc:source": "sources.bib",
     "dc:title": "Dataset of Huber and Reed's \"Comparative Vocabulary\"",
+    "dcat:accessURL": "https://github.com/lexibank/hubercolumbian",
     "rdf:ID": "hubercolumbian",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -18,7 +19,7 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "v3.4",
+                "glottolog_version": "pyglottolog-1.2.0-3-g0c317cdda7",
                 "concepticon_version": "v2.0"
             }
         }

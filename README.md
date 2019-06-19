@@ -15,7 +15,10 @@ Conceptlists in Concepticon:
 
 This dataset comprises 69 language varieties spoken in Columbia. The orthography profile was originally created by Jelena Prokić and further modified for our purposes.
 
+
+
 ## Statistics
+
 
 [![Build Status](https://travis-ci.org/lexibank/hubercolumbian.svg?branch=master)](https://travis-ci.org/lexibank/hubercolumbian)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")

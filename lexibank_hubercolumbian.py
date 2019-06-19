@@ -44,14 +44,6 @@ class Dataset(qlc.QLC):
             (c.concepticon_id, c.english, c.attributes['spanish'])
             for c in self.conceptlist.concepts.values()}
 
-        src = Source.from_bibtex("""
-@book{Huber1992,
-    author={Huber, Randall Q. and Reed, Robert B.},
-    title={Comparative vocabulary. Selected words in indigenous languages of Columbia.},
-    address={Santafé de Bogotá},
-    publisher={Instituto lingüístico de Veterano}
-}""")
-
         def grouped_rows(wl):
             rows = [
                 (wl[k, 'counterpart_doculect'], wl[k, 'concept'], wl[k, 'counterpart'], wl[k, 'qlcid'])
@@ -59,9 +51,8 @@ class Dataset(qlc.QLC):
             return groupby(sorted(rows), key=lambda r: (r[0], r[1]))
 
         with self.cldf as ds:
-            ds.add_sources(src)
-            for (language, concept), rows in tqdm(grouped_rows(wl),
-                desc='cldfify', total=len(wl)):
+            ds.add_sources(*self.raw.read_bib())
+            for (language, concept), rows in tqdm(grouped_rows(wl), desc='cldfify', total=len(wl)):
                 iso = lids[language]
                 cid, ceng, cspa = concepts[concept.lower()]
                 concept = slug(concept)
@@ -82,5 +73,5 @@ class Dataset(qlc.QLC):
                         Language_ID=slug(language),
                         Parameter_ID=concept,
                         Value=form,
-                        Source=[src.id],
+                        Source=['Huber1992'],
                         Local_ID=id_)
