@@ -1,8 +1,7 @@
 from setuptools import setup
-import sys
 import json
 
-with open('metadata.json', encoding='utf-8') as fp:
+with open('metadata.json') as fp:
     metadata = json.load(fp)
 
 setup(
@@ -19,6 +18,12 @@ setup(
         ]
     },
     install_requires=[
-        'pylexibank>=1.1.1',
-    ]
+        'pylexibank==1.1.1',
+        'segments==2.0.2'
+    ],
+    extras_require={
+        'test': [
+            'pytest-cldf',
+        ],
+    },
 )

@@ -1,15 +1,18 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
+    "aboutUrl": null,
     "dc:bibliographicCitation": "Cysouw, M. and Proki\u0107, J. and Bouda, P. and Moran, S. (2012): Dataset of Huber and Reed's \"Comparative Vocabulary\". Marburg: Philipps-University Marburg.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:description": null,
     "dc:format": [
         "http://concepticon.clld.org/contributions/Huber-1992-374"
     ],
     "dc:identifier": "https://gist.github.com/LinguList/7481097",
+    "dc:isVersionOf": null,
     "dc:license": "http://www.opensource.org/licenses/GPL-3.0",
+    "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Dataset of Huber and Reed's \"Comparative Vocabulary\"",
-    "dcat:accessURL": "https://github.com/lexibank/hubercolumbian",
     "rdf:ID": "hubercolumbian",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -19,7 +22,7 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.0-3-g0c317cdda7",
+                "glottolog_version": "v4.0",
                 "concepticon_version": "v2.0"
             }
         }
