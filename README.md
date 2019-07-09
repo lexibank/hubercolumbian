@@ -1,8 +1,8 @@
-# Dataset of Huber and Reed's "Comparative Vocabulary"
+# Comparative Vocabulary
 
 Cite the source dataset as
 
-> Cysouw, M. and Prokić, J. and Bouda, P. and Moran, S. (2012): Dataset of Huber and Reed's "Comparative Vocabulary". Marburg: Philipps-University Marburg.
+> Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santafé de Bogota: Asociatión Instituto Lingüístico de Verano.
 
 This dataset is licensed under a GPL-3.0 license
 
@@ -31,7 +31,6 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 - **Concepts:** 366
 - **Lexemes:** 26,726
 - **Synonymy:** 1.18
-- **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 0
 - **Tokens:** 158,498
 - **Segments:** 109 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
