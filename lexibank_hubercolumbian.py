@@ -8,9 +8,10 @@ from pylexibank import Concept
 from pylexibank.providers import qlc
 from pylexibank.util import progressbar
 
+
 @attr.s
 class HConcept(Concept):
-    Spanish_Gloss = attr.ib(default=None)
+    Spanish = attr.ib(default=None)
 
 
 class Dataset(qlc.QLC):
@@ -22,6 +23,7 @@ class Dataset(qlc.QLC):
     def cmd_makecldf(self, args):
         # column "counterpart_doculect" gives us the proper names of the doculects
         wl = lingpy.Wordlist((self.raw_dir / self.DSETS[0]).as_posix(), col="counterpart_doculect")
+        args.writer.add_sources()
 
         # get the language identifiers stored in wl._meta['doculect'] parsed from input
         # file
@@ -31,12 +33,11 @@ class Dataset(qlc.QLC):
             name = rest.pop(0)
             lids[name] = rest.pop(0)
 
-        concepts = {
-            c.attributes["spanish"]
-            + "_"
-            + c.english: (c.concepticon_id, c.english, c.attributes["spanish"])
-            for c in self.conceptlist.concepts.values()
-        }
+        # TODO: There are issues with the original concept list.
+        # Once these are fixed, we need to re-run this again.
+        concepts = args.writer.add_concepts(
+            id_factory=lambda c: c.id.split("-")[-1] + "_" + slug(c.english), lookup_factory="Name"
+        )
 
         def grouped_rows(wl):
             rows = [
@@ -51,25 +52,22 @@ class Dataset(qlc.QLC):
             ]
             return groupby(sorted(rows), key=lambda r: (r[0], r[1]))
 
-        args.writer.add_sources(*self.raw_dir.read_bib())
-
         for (language, concept), rows in progressbar(grouped_rows(wl)):
             iso = lids[language]
-            cid, ceng, cspa = concepts[concept.lower()]
-            concept = slug(concept)
+            # TODO: Check concept mapping after concept list has been fixed.
+            c_eng = [f.lower() for f in concept.split("_")][1]
 
             args.writer.add_language(
-                ID=slug(language),
+                ID=slug(language, lowercase=False),
                 Name=language,
                 ISO639P3code=iso,
                 Glottocode=self.glottolog.glottocode_by_iso.get(iso, ""),
             )
-            args.writer.add_concept(ID=concept, Name=ceng, Concepticon_ID=cid, Spanish_Gloss=cspa)
 
             for i, (l, c, form, id_) in enumerate(rows):
                 args.writer.add_form(
-                    Language_ID=slug(language),
-                    Parameter_ID=concept,
+                    Language_ID=slug(language, lowercase=False),
+                    Parameter_ID=concepts[c_eng],
                     Value=form,
                     Form=form,
                     Source=["Huber1992"],

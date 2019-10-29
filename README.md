@@ -27,10 +27,10 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 69
-- **Concepts:** 366
+- **Concepts:** 361
 - **Lexemes:** 26,726
 - **Sources:** 1
-- **Synonymy:** 1.18
+- **Synonymy:** 1.20
 - **Invalid lexemes:** 0
 - **Tokens:** 158,498
 - **Segments:** 109 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
