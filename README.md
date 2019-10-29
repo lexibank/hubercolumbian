@@ -8,9 +8,9 @@ This dataset is licensed under a GPL-3.0 license
 
 Available online at https://gist.github.com/LinguList/7481097
 
-Conceptlists in Concepticon:
-- [Huber-1992-374](http://concepticon.clld.org/contributions/Huber-1992-374)
 
+Conceptlists in Concepticon:
+- [Huber-1992-374](https://concepticon.clld.org/contributions/Huber-1992-374)
 ## Notes
 
 This dataset comprises 69 language varieties spoken in Columbia. The orthography profile was originally created by Jelena Prokić and further modified for our purposes.
@@ -20,7 +20,6 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/hubercolumbian.svg?branch=master)](https://travis-ci.org/lexibank/hubercolumbian)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 96%](https://img.shields.io/badge/Concepticon-96%25-green.svg "Concepticon: 96%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -30,6 +29,7 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 - **Varieties:** 69
 - **Concepts:** 366
 - **Lexemes:** 26,726
+- **Sources:** 1
 - **Synonymy:** 1.18
 - **Invalid lexemes:** 0
 - **Tokens:** 158,498
