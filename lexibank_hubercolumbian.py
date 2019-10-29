@@ -6,8 +6,7 @@ import lingpy
 from clldutils.misc import slug
 from pylexibank import Concept
 from pylexibank.providers import qlc
-from tqdm import tqdm
-
+from pylexibank.util import progressbar
 
 @attr.s
 class HConcept(Concept):
@@ -54,7 +53,7 @@ class Dataset(qlc.QLC):
 
         args.writer.add_sources(*self.raw_dir.read_bib())
 
-        for (language, concept), rows in tqdm(grouped_rows(wl), desc="cldfify", total=len(wl)):
+        for (language, concept), rows in progressbar(grouped_rows(wl)):
             iso = lids[language]
             cid, ceng, cspa = concepts[concept.lower()]
             concept = slug(concept)
