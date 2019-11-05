@@ -12,6 +12,7 @@ from pylexibank.util import progressbar
 @attr.s
 class HConcept(Concept):
     Spanish = attr.ib(default=None)
+    Digital_Label = attr.ib(default=None)
 
 
 class Dataset(qlc.QLC):
@@ -25,19 +26,28 @@ class Dataset(qlc.QLC):
         wl = lingpy.Wordlist((self.raw_dir / self.DSETS[0]).as_posix(), col="counterpart_doculect")
         args.writer.add_sources()
 
-        # get the language identifiers stored in wl._meta['doculect'] parsed from input
-        # file
+        # get the language identifiers stored in wl._meta['doculect'] parsed from input file
         lids = {}
         for line in wl._meta["doculect"]:
             rest = line.split(", ")
             name = rest.pop(0)
             lids[name] = rest.pop(0)
 
-        # TODO: There are issues with the original concept list.
-        # Once these are fixed, we need to re-run this again.
-        concepts = args.writer.add_concepts(
-            id_factory=lambda c: c.id.split("-")[-1] + "_" + slug(c.english), lookup_factory="Name"
-        )
+        concept_lookup = {}
+
+        for concept in self.conceptlists[0].concepts.values():
+            concept_id = "%s_%s" % (concept.number, slug(concept.english))
+
+            args.writer.add_concept(
+                ID=concept_id,
+                Name=concept.english,
+                Concepticon_ID=concept.concepticon_id,
+                Concepticon_Gloss=concept.concepticon_gloss,
+                Digital_Label=concept.attributes["digital_label"],
+                Spanish=concept.attributes["spanish"],
+            )
+
+            concept_lookup[concept.attributes["digital_label"]] = concept_id
 
         def grouped_rows(wl):
             rows = [
@@ -54,7 +64,7 @@ class Dataset(qlc.QLC):
 
         for (language, concept), rows in progressbar(grouped_rows(wl)):
             iso = lids[language]
-            # TODO: Check concept mapping after concept list has been fixed.
+            # Split the English component from the lexeme annotation for concept lookup.
             c_eng = [f.lower() for f in concept.split("_")][1]
 
             args.writer.add_language(
@@ -65,9 +75,13 @@ class Dataset(qlc.QLC):
             )
 
             for i, (l, c, form, id_) in enumerate(rows):
+                # TODO: Discuss in issue.
+                if c_eng == "we" or c_eng == "it":
+                    continue
+
                 args.writer.add_form(
                     Language_ID=slug(language, lowercase=False),
-                    Parameter_ID=concepts[c_eng],
+                    Parameter_ID=concept_lookup[c_eng],
                     Value=form,
                     Form=form,
                     Source=["Huber1992"],

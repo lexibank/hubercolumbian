@@ -1,362 +1,360 @@
-ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish
-1_tongue,tongue,1205,TONGUE,lengua
-2_mouth,mouth,674,MOUTH,boca
-3_lip,lip,478,LIP,labio
-4_tooth,tooth,1380,TOOTH,diente
-5_nose,nose,1221,NOSE,nariz
-6_eye,eye,1248,EYE,ojo
-7_ear,ear,1247,EAR,oreja
-8_head,head,1256,HEAD,cabeza
-9_forehead,forehead,123,FOREHEAD,frente
-10_hair,hair,2648,HAIR (HEAD),cabello
-11_chin,chin,1510,CHIN,mentón
-12_beard,beard,678,BEARD,barba
-13_neck,neck,1333,NECK,cuello
-14_chest,chest,1592,CHEST,pecho
-15_womansbreasts,woman’s breasts,1402,BREAST,"teta, seno, pecho"
-16_abdomenbelly,"abdomen, belly",,,"vientre, abdomen"
-17_back,back,1291,BACK,espalda
-18_shoulder,shoulder,1482,SHOULDER,hombro
-19_arm,arm,1673,ARM,brazo
-20_upperarm,upper arm,431,UPPER ARM,brazo superior
-21_elbow,elbow,981,ELBOW,codo
-22_hand,hand,1277,HAND,mano
-23_finger,finger,1303,FINGER,dedo de la mano
-24_fingernail,fingernail,1258,FINGERNAIL,uña
-25_leg,leg,1297,LEG,pierna
-26_thigh,thigh,800,THIGH,muslo
-27_knee,knee,1371,KNEE,rodilla
-28_shin,shin,186,SHIN,espinilla
-29_foot,foot,1301,FOOT,pie
-30_toe,toe,1389,TOE,dedo del pie
-31_skin,skin,763,SKIN,piel
-32_bone,bone,1394,BONE,hueso
-33_blood,blood,946,BLOOD,sangre
-34_heart,heart,1223,HEART,corazón
-35_lungs,lungs,688,LUNG,pulmones
-36_penis,penis,1222,PENIS,pene
-37_vulva,vulva,1837,VULVA,vulva
-38_man,man,1554,MAN,hombre
-39_male,male,1553,MALE,varón
-40_woman,woman,962,WOMAN,mujer
-41_people,people,789,PEOPLE,gente
-42_husband,husband,1200,HUSBAND,"marido, esposo"
-43_wife,wife,1199,WIFE,esposa
-44_father,father,1217,FATHER,padre
-45_mother,mother,1216,MOTHER,madre
-46_babyinfant,"baby, infant",1289,BABY,criatura
-47_old,old,1229,OLD,viejo
-48_water,water,948,WATER,agua
-49_river,river,666,RIVER,río
-50_island,island,622,ISLAND,isla
-51_lake,lake,624,LAKE,lago
-52_swamp,swamp,1145,SWAMP,pantano
-53_springofwater,spring of water,849,SPRING (OF WATER),"fuente, ojo de agua"
-54_waterfall,waterfall,943,WATERFALL,caída de agua
-55_rapids,rapids,1670,RAPIDS,"catarata, raudal"
-56_fire,fire,221,FIRE,"candela, fuego"
-57_ash,ash,646,ASH,ceniza
-58_charcoal,charcoal,1188,CHARCOAL,carbón
-59_smoke,smoke,778,SMOKE (EXHAUST),humo
-60_firewood,firewood,10,FIREWOOD,leña
-61_sky,sky,1732,SKY,cielo
-62_rain,rain,658,RAIN (PRECIPITATION),lluvia
-63_wind,wind,960,WIND,viento
-64_sun,sun,1343,SUN,sol
-65_moon,moon,1313,MOON,luna
-66_star,star,1430,STAR,estrella
-67_day,day,1225,DAY (NOT NIGHT),día
-68_night,night,1233,NIGHT,noche
-69_thunder,thunder,1150,THUNDER,trueno
-70_lightning,lightning,1654,LIGHTNING,relámpago
-71_rainbow,rainbow,1733,RAINBOW,arco iris
-72_earth,earth,1228,EARTH (SOIL),tierra
-73_stone,stone,857,STONE,piedra
-74_sand,sand,671,SAND,arena
-75_house,house,1252,HOUSE,casa
-76_roof,roof,769,ROOF,techo
-77_doorway,doorway,1567,DOOR,puerta
-78_seatstool,"seat, stool",2058,STOOL,banco
-79_mat,mat,195,MAT,estera
-80_hammock,hammock,2019,HAMMOCK,hamaca
-81_bed,bed,1663,BED,"catre, cama de barbacoa"
-82_cookingpot,cooking pot,1462,POT,olla
-83_cultivatedclearing,cultivated clearing,,,"roza, sementera"
-84_village,village,930,VILLAGE,caserío
-85_pathtrail,"path, trail",,,"camino, sendero, trocha"
-86_fishnet,fish net,388,FISHNET,red
-87_fishhook,fish hook,1074,FISHHOOK,anzuelo
-88_axe,axe,677,AXE,hacha
-89_knife,knife,1352,KNIFE,cuchillo
-90_canoe,canoe,1970,CANOE,canoa
-91_paddle,paddle,234,PADDLE,remo
-92_club,club,1763,CLUB,"porra, macana"
-93_spear,spear,945,SPEAR,lanza
-94_bow,bow,994,BOW,arco
-95_arrow,arrow,977,ARROW,flecha
-96_blowgun,blowgun,432,BLOWGUN,cerbatana
-97_tapir,tapir,312,TAPIR,danta
-98_jaguar,jaguar,1250,JAGUAR,tigre
-99_puma,puma,1891,PUMA,"león, puma"
-100_armadillo,armadillo,1885,ARMADILLO,"armadillo, quinquincho, chupa"
-101_dog,dog,2009,DOG,perro
-102_deer,deer,1936,DEER,venado
-103_bat,bat,1793,BAT,murciélago
-104_otter,otter,15,OTTER,"nutria, perro de agua"
-105_cebusmonkey,cebus monkey,439,CEBUS MONKEY,"capuchín, machín"
-106_howlermonkey,howler monkey,433,HOWLER MONKEY,mono aullador
-107_spidermonkey,spider monkey,434,SPIDER MONKEY,"marimonda, maquisapa"
-108_capybara,capybara,314,CAPYBARA,"chigüiro, ronsoco"
-109_anteater,anteater,181,ANTEATER,oso hormiguero
-110_paca,paca,316,PACA,"paca, guagua, majas"
-111_cayman,cayman,2438,CAIMAN,caimán
-112_iguana,iguana,1578,IGUANA,iguana
-113_tortoise,tortoise,895,TORTOISE,tortuga
-114_riverturtle,river turtle,112,TURTLE,"tortuga, motelo"
-115_collaredpeccary,collared peccary,435,COLLARED PECCARY,saíno
-116_whitelippedpeccary,white-lipped peccary,436,WHITE-LIPPED PECCARY,jabalí mayor
-117_agouti,agouti,313,AGOUTI,agutí
-118_rat,rat,1490,RAT,rata
-119_cat,cat,1208,CAT,gato
-120_mouse,mouse,1491,MOUSE,ratón
-121_tail,tail,1220,TAIL,cola
-122_snake,snake,730,SNAKE,"serpiente, culebra"
-123_anacondawaterboa,"anaconda, water boa",896,ANACONDA (WATER BOA),mapana
-124_rattlesnake,rattlesnake,871,RATTLESNAKE,cascabel
-125_coralsnake,coral snake,2240,CORAL SNAKE,coral
-126_toad,toad,894,TOAD,sapo
-127_bird,bird,937,BIRD,pájaro
-128_hummingbird,hummingbird,1589,HUMMINGBIRD,"picaflor, colibrí"
-129_macaw,macaw,1630,MACAW,guacamayo
-130_toucan,toucan,308,TOUCAN,"tucán, pinsha"
-131_parrot,parrot,882,PARROT,loro
-132_parakeet,parakeet,886,PARAKEET,"perico, pihuicho"
-133_buzzard,buzzard,1865,BUZZARD,gallinazo
-134_curassow,curassow,315,CURASSOW,payo
-135_owl,owl,735,OWL,"lechuza, buho"
-136_guan,guan,437,GUAN,pava de monte
-137_hen,hen,1514,HEN,gallina
-138_fish,fish,227,FISH,pescado
-139_piranha,piranha,317,PIRANHA,caribe
-140_bee,bee,665,BEE,abeja
-142_flea,flea,232,FLEA,pulga
-143_louse,louse,1392,LOUSE,piojo
-144_mosquito,mosquito,1509,MOSQUITO,zancudo
-145_termite,termite,883,TERMITE,"comején, hormiga blanca"
-146_ant,ant,587,ANT,hormiga
-147_spider,spider,843,SPIDER,araña
-148_chiggoejiggerflea,"chiggoe, jigger flea",438,CHIGGOE (JIGGER FLEA),"nigua, pigue"
-149_bush,bush,1683,BUSH,monte
-150_opengrassland,open grassland,260,SAVANNA,"pajonal, sabana"
-151_hill,hill,614,HILL,"cerro, loma"
-152_tree,tree,906,TREE,árbol
-153_leaf,leaf,2250,LEAF (LEAFLIKE OBJECT),hoja
-154_treeleaf,tree leaf,628,LEAF,hoja de árbol
-155_flower,flower,239,FLOWER,flor
-156_fruit,fruit,1507,FRUIT,fruta
-157_sap,sap,345,SAP,savia
-158_root,root,670,ROOT,raíz
-159_seed,seed,714,SEED,semilla
-160_stick,stick,1295,STICK,palo
-161_grass,grass,606,GRASS,hierba
-162_cornmaize,"corn, maize",506,MAIZE,maíz
-163_manioc,manioc,925,CASSAVA,yuca
-164_maniocflour,manioc flour,324,MANIOC FLOUR,harina de yuca
-165_tobacco,tobacco,974,TOBACCO,tabaco
-166_cotton,cotton,1850,COTTON,algodón
-167_gourd,gourd,411,GOURD,calabazo poro
-168_yam,yam,410,YAM,ñame
-169_sweetpotato,sweet potato,159,SWEET POTATO,"camote, batata"
-170_achiote,achiote,349,ACHIOTE,"achiote, bija"
-171_chilipepper,chili pepper,919,CHILI PEPPER,ají
-172_coca,coca,137,COCA,coca
-173_banisterium,banisterium,276,BANISTERIUM,"ajahuasca, jajé"
-174_plantain,plantain,399,PLANTAIN,plátano
-175_chontapalm,chonta palm,440,CHONTA PALM,chonta
-178_cane,cane,146,SUGAR CANE,caña brava
-179_salt,salt,1274,SALT,sal
-180_chicha,chicha,441,CHICHA,"chicha, masato"
-181_one,one,1493,ONE,uno
-182_two,two,1498,TWO,dos
-183_three,three,492,THREE,tres
-184_four,four,1500,FOUR,cuatro
-185_five,five,493,FIVE,cinco
-190_ten,ten,1515,TEN,diez
-191_first,first,728,FIRST,primero
-192_last,last,1529,LAST (FINAL),último
-193_rattle,rattle,300,RATTLE,"sonajero, maraca"
-194_drum,drum,908,DRUM,tambor
-195_cushma,cushma,450,CUSHMA,cushma
-196_earornament,ear ornament,,,"orejera, arete"
-197_mask,mask,2005,MASK,máscara
-198_shamanfolkhealer,"shaman, folk healer",394,SHAMAN (FOLK HEALER),curandero
-199_chief,chief,301,CHIEFTAIN,"cacique, curaca, capitán"
-200_i,i,1209,I,yo
-201_yousingular,you (singular),1215,THOU,usted
-202_he,he,1211,HE,él
-203_she,she,1834,SHE,ella
-204_it,it,169,IT,ello
-205_we,we,1212,WE,nosotros
-206_youplural,you (plural),1213,YOU,ustedes
-207_they,they,817,THEY,ellos
-208_myhand,my hand,,,mi mano
-209_yourhand,your hand,,,tu mano
-210_hishand,his hand,,,su mano
-211_ourhands,our hands,,,nuestras manos
-212_yourplurhands,your (plur.) hands,,,vuestras manos
-213_theirhands,their hands,,,sus manos (de ellos)
-214_mybow,my bow,,,mi arco
-215_yoursingbow,your (sing.) bow,,,tu arco
-216_hisbow,his bow,,,su arco - de él
-217_ourbow,our bow,,,nuestro arco
-218_yourplurbow,your (plur.) bow,,,su arco de ustedes
-219_theirbow,their bow,,,su arco - de ellos
-220_big,big,1202,BIG,grande
-221_small,small,1246,SMALL,pequeño
-222_cold,cold,1287,COLD,frío
-223_hot,hot,1286,HOT,caliente
-224_good,good,1035,GOOD,bueno
-225_bad,bad,1292,BAD,malo
-226_white,white,1335,WHITE,blanco
-227_black,black,163,BLACK,negro
-228_go,go,695,GO,"vaya, ve"
-233_crownofhead,crown of head,1943,CROWN (OF HEAD),corona
-234_frontteethineisors,"front teeth, ineisors",442,FRONT TOOTH (INCISOR),dientes delanteros incisivos
-235_tipoftongue,tip of tongue,443,TIP (OF TONGUE),punta de la lengua
-236_longhair,long hair,444,LONG HAIR,pelo largo
-237_theneckregion,the neck region,1347,NAPE (OF NECK),la garganta y cuello
-238_adamsapple,adam’s apple,802,ADAM'S APPLE,nuez de la garganta
-239_upperback,upper back,445,UPPER BACK,"espalda, parte superior"
-240_lowerarm,lower arm,446,LOWER ARM,antebrazo
-241_wrist,wrist,799,WRIST,muñeca
-242_lowerleg,lower leg,447,LOWER LEG,la pierna inferior
-243_bodyhair,body hair,189,HAIR (BODY),el pelo del cuerpo
-244_stomach,stomach,819,STOMACH,estómago
-245_intestines,intestines,1991,INTESTINES,"intestĩnos, tripas"
-246_oldwoman,old woman,907,OLD WOMAN,viejita
-247_cloudsatrest,clouds at rest,1489,CLOUD,nubes quietas
-248_stormclouds,storm clouds,448,STORM CLOUDS,nubes de tormenta
-249_cornfield,corn field,449,CORN FIELD,sementera de maíz
-250_stream,stream,,,"quebrada, caño"
-251_pebbles,pebbles,961,PEBBLES,piedrecillas
-252_hugerocks,huge rocks,,,rocas grandes
-253_path,path,2252,PATH,trocha
-255_shelter,shelter,1678,HUT,rancho
-256_this,this,1214,THIS,este
-257_that,that,78,THAT,aquel
-258_who,who,1235,WHO,quién
-259_what,what,1236,WHAT,qué
-260_not,not,1240,NOT,no
-261_all,all,98,ALL,todos
-262_many,many,1198,MANY,mucho(s)
-263_long,long,1203,LONG,largo
-264_bark,bark,1204,BARK,corteza
-265_flesh,flesh,2615,FLESH OR MEAT,carne
-267_greaseanimalfat,"grease, animal fat",1282,FAT (FROM ANIMALS),grasa
-268_egg,egg,744,EGG,huevo
-269_horn,horn,1393,HORN (ANATOMY),cuerno
-270_feather,feather,1201,FEATHER,pluma
-271_fingernailclaw,"fingernail, claw",2128,CLAW OR NAIL,"uña, garra"
-272_belly,belly,1251,BELLY,barriga
-273_liver,liver,1224,LIVER,hígado
-274_drink,drink,1401,DRINK,beber
-275_eat,eat,1336,EAT,comer
-276_bite,bite,1403,BITE,morder
-277_see,see,1409,SEE,ver
-278_hear,hear,1408,HEAR,oír
-279_know,know,1410,KNOW (SOMETHING),saber
-280_sleep,sleep,1585,SLEEP,dormir
-281_die,die,1494,DIE,morir
-282_kill,kill,1417,KILL,matar
-283_swim,swim,1439,SWIM,nadar
-284_fly,fly,1441,FLY (MOVE THROUGH AIR),volar
-285_walk,walk,1443,WALK,andar
-286_come,come,1446,COME,venir
-287_liedown,lie down,215,LIE DOWN,acostarse
-288_sit,sit,1416,SIT,"sentarse, sentado"
-289_stand,stand,1442,STAND,"ponerse en pie, de pie"
-290_give,give,1447,GIVE,dar
-291_say,say,1458,SAY,decir
-292_burn,burn,1428,BURNING,arder
-293_mountain,mountain,639,MOUNTAIN,montaña
-294_red,red,156,RED,rojo
-295_green,green,1425,GREEN,verde
-296_yellow,yellow,1424,YELLOW,amarillo
-297_full,full,1429,FULL,lleno
-298_new,new,1231,NEW,nuevo
-299_round,round,1395,ROUND,redondo
-300_dry,dry,1398,DRY,seco
-301_name,name,1405,NAME,nombre
-302_how,how,1239,HOW,como
-303_when,when,1238,WHEN,cuando
-304_where,where,1237,WHERE,donde
-305_here,here,136,HERE,aquí
-306_there,there,1937,THERE,allí
-307_other,other,197,OTHER,otro
-308_few,few,1242,FEW,poco
-309_fog,fog,249,FOG,neblina
-310_flow,flow,2003,FLOW,fluir
-311_sea,sea,1474,SEA,mar
-312_wet,wet,1726,WET,mojado
-313_wash,wash,1453,WASH,lavar
-314_worm,worm,1219,WORM,gusano
-315_wing,wing,1257,WING,ala
-316_fur,fur,580,FUR,piel peluda
-317_navel,navel,1838,NAVEL,ombligo
-318_saliva,saliva,1503,SALIVA,saliva
-319_milk,milk,635,MILK,leche
-320_with,with,1340,WITH,con
-321_in,in,1460,IN,en
-322_at,at,1461,AT,"en, lugar definido"
-323_if,if,1459,IF,si
-324_ice,ice,617,ICE,hielo
-325_snow,snow,784,SNOW,nieve
-326_freeze,freeze,1431,FREEZE,helarse
-327_child,child,1304,CHILD (YOUNG HUMAN),niño
-328_dark,dark,706,DARK,oscuro
-329_cut,cut,1432,CUT,cortar
-330_wide,wide,1243,WIDE,ancho
-331_narrow,narrow,1267,NARROW,estrecho
-332_far,far,1406,FAR,lejos
-333_near,near,1942,NEAR,cerca
-334_thick,thick,1244,THICK,grueso
-335_thin,thin,2308,THIN,delgado
-336_short,short,1645,SHORT,corto
-337_heavy,heavy,1210,HEAVY,pesado
-338_dull,dull,379,BLUNT,embotado
-339_sharp,sharp,1396,SHARP,afilado
-340_dirty,dirty,1230,DIRTY,sucio
-341_rotten,rotten,1728,ROTTEN,podrido
-342_smooth,smooth,1234,SMOOTH,liso
-343_straight,straight,1404,STRAIGHT,recto
-344_correct,correct,1725,CORRECT (RIGHT),correcto
-345_left,left,244,LEFT,izquierdo
-346_right,right,1019,RIGHT,derecho
-347_oldman,old man,406,OLD MAN,viejo
-348_rub,rub,1449,RUB,frotar
-349_pull,pull,1455,PULL,"jalar, halar"
-350_push,push,1452,PUSH,empujar
-351_throw,throw,1456,THROW,"botar, tirar"
-352_hit,hit,1433,HIT,golpear
-353_split,split,1437,SPLIT,hender
-354_pierce,pierce,398,PIERCE,punzar
-355_dig,dig,1418,DIG,cavar
-356_tie,tie,1917,TIE,atar
-357_sew,sew,1457,SEW,coser
-358_fall,fall,1280,FALL,caer
-359_swell,swell,1573,SWELL,hinchar
-360_think,think,2271,THINK,pensar
-361_sing,sing,1261,SING,cantar
-362_smell,smell,2124,SMELL,oler
-363_vomit,vomit,1278,VOMIT,vomitar
-364_suck,suck,1421,SUCK,chupar
-365_blow,blow,175,BLOW (OF WIND),soplar
-366_fear,fear,1419,FEAR (BE AFRAID),temer
-367_tightensqueeze,"tighten, squeeze",1414,SQUEEZE,"apretar, exprimir"
-368_hold,hold,1448,HOLD,sostener
-369_down,down,1326,DOWN,abajo
-370_up,up,1591,UP,arriba
-371_ripe,ripe,178,RIPE,maduro
-372_dust,dust,2,DUST,polvo
-373_alive,alive,1422,BE ALIVE,vivo
-374_rope,rope,1218,ROPE,cuerda
+ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish,Digital_Label
+1_tongue,tongue,1205,TONGUE,lengua,tongue
+2_mouth,mouth,674,MOUTH,boca,mouth
+3_lip,lip,478,LIP,labio,lip
+4_tooth,tooth,1380,TOOTH,diente,tooth
+5_nose,nose,1221,NOSE,nariz,nose
+6_eye,eye,1248,EYE,ojo,eye
+7_ear,ear,1247,EAR,oreja,ear
+8_head,head,1256,HEAD,cabeza,head
+9_forehead,forehead,123,FOREHEAD,frente,forehead
+10_hair,hair,2648,HAIR (HEAD),cabello,hair
+11_chin,chin,1510,CHIN,menton,chin
+12_beard,beard,678,BEARD,barba,beard
+13_neck,neck,1333,NECK,cuello,neck
+14_chest,chest,1592,CHEST,pecho,chest
+15_womansbreast,woman's breast,1402,BREAST,"teta, seno, pechos",woman’s breasts
+16_abdomen,abdomen,1251,BELLY,"vientre, abdomen","abdomen, belly"
+17_back,back,1291,BACK,espalda,back
+18_shoulder,shoulder,1482,SHOULDER,hombro,shoulder
+19_arm,arm,1673,ARM,brazo,arm
+20_upperarm,upper arm,431,UPPER ARM,brazo superior,upper arm
+21_elbow,elbow,981,ELBOW,codo,elbow
+22_hand,hand,1277,HAND,mano,hand
+23_finger,finger,1303,FINGER,dedo de la mano,finger
+24_fingernail,fingernail,1258,FINGERNAIL,uña,fingernail
+25_leg,leg,1297,LEG,pierna,leg
+26_thigh,thigh,800,THIGH,muslo,thigh
+27_knee,knee,1371,KNEE,rodilla,knee
+28_shin,shin,186,SHIN,espinilla,shin
+29_foot,foot,1301,FOOT,pie,foot
+30_toe,toe,1389,TOE,dedo del pie,toe
+31_skin,skin,763,SKIN,piel,skin
+32_bone,bone,1394,BONE,hueso,bone
+33_blood,blood,946,BLOOD,sangre,blood
+34_heart,heart,1223,HEART,corazón,heart
+35_lungs,lungs,688,LUNG,pulmones,lungs
+36_penis,penis,1222,PENIS,pene,penis
+37_vulva,vulva,1837,VULVA,vulva,vulva
+38_man,man,1554,MAN,hombre,man
+39_male,male,1553,MALE,varón,male
+40_woman,woman,962,WOMAN,mujer,woman
+41_people,people,789,PEOPLE,gente,people
+42_husband,husband,1200,HUSBAND,"marido, esposo",husband
+43_wife,wife,1199,WIFE,"marida, esposa",wife
+44_father,father,1217,FATHER,padrc,father
+45_mother,mother,1216,MOTHER,madre,mother
+46_babyinfant,"baby, infant",1289,BABY,criatura,"baby, infant"
+47_oldman,old man,406,OLD MAN,viejo,old
+48_water,water,948,WATER,agua,water
+49_river,river,666,RIVER,río,river
+50_island,island,622,ISLAND,isla,island
+51_lake,lake,624,LAKE,lago,lake
+52_swamp,swamp,1145,SWAMP,pantano,swamp
+53_springofwater,spring of water,849,SPRING (OF WATER),"fuente, ojo de agua",spring of water
+54_waterfall,waterfall,943,WATERFALL,caída de agua,waterfall
+55_rapids,rapids,1670,RAPIDS,"catarata, raudal",rapids
+56_flamefire,"flame, fire",221,FIRE,"candela, fuego",fire
+57_ash,ash,646,ASH,ceniza,ash
+58_charcoal,charcoal,1188,CHARCOAL,carbón,charcoal
+59_smoke,smoke,778,SMOKE (EXHAUST),humo,smoke
+60_firewood,firewood,10,FIREWOOD,leña,firewood
+61_sky,sky,1732,SKY,cielo,sky
+62_rain,rain,658,RAIN (PRECIPITATION),lluvia,rain
+63_wind,wind,960,WIND,viento,wind
+64_sun,sun,1343,SUN,sol,sun
+65_moon,moon,1313,MOON,luna,moon
+66_star,star,1430,STAR,estrella,star
+67_day,day,1225,DAY (NOT NIGHT),día,day
+68_night,night,1233,NIGHT,noche,night
+69_thunder,thunder,1150,THUNDER,trueno,thunder
+70_lightning,lightning,1654,LIGHTNING,relámpago,lightning
+71_rainbow,rainbow,1733,RAINBOW,arco iris,rainbow
+72_earthsoil,"earth, soil",1228,EARTH (SOIL),tierra,earth
+73_stone,stone,857,STONE,piedra,stone
+74_sand,sand,671,SAND,arena,sand
+75_house,house,1252,HOUSE,casa,house
+76_roof,roof,769,ROOF,techo,roof
+77_door,door,1567,DOOR,puerta,doorway
+78_seatstool,"seat, stool",2058,STOOL,banco,"seat, stool"
+79_mat,mat,195,MAT,estera,mat
+80_hammock,hammock,2019,HAMMOCK,hamaca,hammock
+81_bed,bed,1663,BED,"catre, cama de barbacoa",bed
+82_cookingpot,cooking pot,1462,POT,olla,cooking pot
+83_cultivatedclearing,cultivated clearing,,,"roza, sementera",cultivated clearing
+84_village,village,930,VILLAGE,caserío,village
+85_pathtrail,"path, trail",2252,PATH,"camino, sendero, trocha","path, trail"
+86_fishnet,fish net,388,FISHNET,red,fish net
+87_fishhook,fish hook,1074,FISHHOOK,anzuelo,fish hook
+88_axe,axe,677,AXE,hacha,axe
+89_knife,knife,1352,KNIFE,cuchillo,knife
+90_canoe,canoe,1970,CANOE,canoa,canoe
+91_paddle,paddle,234,PADDLE,remo,paddle
+92_club,club,1763,CLUB,"porra, macana",club
+93_spear,spear,945,SPEAR,lanza,spear
+94_bow,bow,994,BOW,arco de cazar,bow
+95_arrow,arrow,977,ARROW,flecha,arrow
+96_blowgun,blowgun,432,BLOWGUN,cerbatana,blowgun
+97_tapir,tapir,312,TAPIR,danta,tapir
+98_jaguar,jaguar,1250,JAGUAR,tigre,jaguar
+99_puma,puma,1891,PUMA,"león, puma",puma
+100_armadillo,armadillo,1885,ARMADILLO,armadillo,armadillo
+101_dog,dog,2009,DOG,perro,dog
+102_deer,deer,1936,DEER,venado,deer
+103_bat,bat,1793,BAT,murciélago,bat
+104_otter,otter,15,OTTER,nutria,otter
+105_cebusmonkeycebuscapucinus,cebus monkey (cebus capucinus),439,CEBUS MONKEY,"capuchín, machín",cebus monkey
+106_howlermonkeyalouattavillosa,howler monkey (alouatta villosa),433,HOWLER MONKEY,mono aullador,howler monkey
+107_blackmonkeyatelesfusciceps,black monkey (ateles fusciceps),434,SPIDER MONKEY,mono marimonda,spider monkey
+108_capybara,capybara,314,CAPYBARA,"chigüiro, ronsoco",capybara
+109_anteater,anteater,181,ANTEATER,oso hormiguero,anteater
+110_spottedcavy,spotted cavy,316,PACA,"paca, guagua",paca
+111_cayman,cayman,2438,CAIMAN,caimán,cayman
+112_iguana,iguana,1578,IGUANA,iguana,iguana
+113_tortoise,tortoise,895,TORTOISE,tortuga,tortoise
+114_riverturtle,river turtle,112,TURTLE,"tortuga, motelo",river turtle
+115_collaredpeccary,collared peccary,435,COLLARED PECCARY,saíno,collared peccary
+116_whitelippedpeccary,white-lipped peccary,436,WHITE-LIPPED PECCARY,jabalí mayor,white-lipped peccary
+117_agouti,agouti,313,AGOUTI,agutí,agouti
+118_rat,rat,1490,RAT,rata,rat
+119_cat,cat,1208,CAT,gato,cat
+120_mouse,mouse,1491,MOUSE,ratón,mouse
+121_tail,tail,1220,TAIL,cola,tail
+122_snake,snake,730,SNAKE,"serpiente, culebra",snake
+123_anacondawaterboa,"anaconda, water boa",896,ANACONDA (WATER BOA),anaconda,"anaconda, water boa"
+124_rattlesnake,rattle snake,871,RATTLESNAKE,cascabel,rattlesnake
+125_coralsnake,coral snake,2240,CORAL SNAKE,coral,coral snake
+126_toad,toad,894,TOAD,sapo,toad
+127_bird,bird,937,BIRD,pájaro,bird
+128_hummingbird,hummingbird,1589,HUMMINGBIRD,"picaflor, colibrí",hummingbird
+129_macaw,macaw,1630,MACAW,guacamayo,macaw
+130_toucan,toucan,308,TOUCAN,tucán,toucan
+131_parrot,parrot,882,PARROT,loro,parrot
+132_parakeet,parakeet,886,PARAKEET,perico,parakeet
+133_buzzard,buzzard,1865,BUZZARD,gallinazo,buzzard
+134_curassow,curassow,315,CURASSOW,pavo,curassow
+135_owl,owl,735,OWL,lechuza,owl
+136_guan,guan,437,GUAN,pava de monte,guan
+137_hen,hen,1514,HEN,gallina,hen
+138_fish,fish,227,FISH,pescado,fish
+139_piranha,piranha,317,PIRANHA,caribe,piranha
+140_bee,bee,665,BEE,abeja,bee
+142_flea,flea,232,FLEA,pulga,flea
+143_louse,louse,1392,LOUSE,piojo,louse
+144_mosquito,mosquito,1509,MOSQUITO,zancudo,mosquito
+145_termite,termite,883,TERMITE,"comején, hormiga blanca",termite
+146_ant,ant,587,ANT,hormiga,ant
+147_spider,spider,843,SPIDER,araña,spider
+148_jiggerflea,jigger flea,438,CHIGGOE (JIGGER FLEA),"nigua, pigue","chiggoe, jigger flea"
+149_bushjungle,"bush, jungle",420,FOREST,monte,bush
+150_opengrassland,open grassland,260,SAVANNA,"pajonal, sabana",open grassland
+151_hill,hill,614,HILL,"cerro, loma",hill
+152_tree,tree,906,TREE,árbol,tree
+153_leaf,leaf,2250,LEAF (LEAFLIKE OBJECT),hoja,leaf
+154_treeleaf,tree leaf,628,LEAF,hoja de árbol,tree leaf
+155_flower,flower,239,FLOWER,flor,flower
+156_fruit,fruit,1507,FRUIT,fruta,fruit
+157_sap,sap,345,SAP,savia,sap
+158_root,root,670,ROOT,raíz,root
+159_seed,seed,714,SEED,semilla,seed
+160_stick,stick,1295,STICK,palo,stick
+161_grass,grass,606,GRASS,hierba,grass
+162_cornmaize,"corn, maize",506,MAIZE,maíz,"corn, maize"
+163_manioc,manioc,925,CASSAVA,yuca,manioc
+164_maniocflour,manioc flour,324,MANIOC FLOUR,harina de yuca,manioc flour
+165_tobacco,tobacco,974,TOBACCO,tabaco,tobacco
+166_cotton,cotton,1850,COTTON,algodón,cotton
+167_gourd,gourd,411,GOURD,calabazo poro,gourd
+168_yam,yam,410,YAM,ñame,yam
+169_sweetpotato,sweet potato,159,SWEET POTATO,camote,sweet potato
+170_achiote,achiote,349,ACHIOTE,"achiote, bija",achiote
+171_chilipepper,chili pepper,919,CHILI PEPPER,ají,chili pepper
+172_coca,coca,137,COCA,coca,coca
+173_banisteriumhallucinogenicvine,"Banisterium, hallucinogenic vine",276,BANISTERIUM,"ajahuasca, jajé",banisterium
+174_plantain,plantain,399,PLANTAIN,plátano,plantain
+175_chontapalm,chonta palm,440,CHONTA PALM,chonta,chonta palm
+176_cane,cane,659,REED,caña brava,cane
+177_salt,salt,1274,SALT,sal,salt
+178_chicha,chicha,441,CHICHA,"chicha, masato",chicha
+179_one,one,1493,ONE,uno,one
+180_two,two,1498,TWO,dos,two
+181_three,three,492,THREE,tres,three
+182_four,four,1500,FOUR,cuatro,four
+183_five,five,493,FIVE,cinco,five
+188_ten,ten,1515,TEN,diez,ten
+189_first,first,728,FIRST,primero,first
+190_last,last,1529,LAST (FINAL),último,last
+191_rattle,rattle,300,RATTLE,"sonahero, maraca",rattle
+192_drum,drum,908,DRUM,tambor,drum
+193_cushma,cushma,450,CUSHMA,cushma,cushma
+194_earornament,ear ornament,,,"orejera, arete",ear ornament
+195_mask,mask,2005,MASK,máscara,mask
+196_healershaman,"healer, shaman",394,SHAMAN (FOLK HEALER),curandero,"shaman, folk healer"
+197_chief,chief,301,CHIEFTAIN,"cacique, curaca, capitán",chief
+198_imemy,"I, me, my",1209,I,"yo, mi",i
+199_yousingular,you singular,1215,THOU,usted,you (singular)
+200_he,he,1211,HE,él,he
+201_she,she,1834,SHE,élla,she
+204_youplural,you plural,1213,YOU,ustedes,you (plural)
+205_they,they,817,THEY,ellos,they
+206_myhand,my hand,,,mi mano,my hand
+207_yoursghand,your (sg.) hand,,,tu mano,your hand
+208_hishand,his hand,,,su mano,his hand
+209_ourhand,our hand,,,nuestras manos,our hands
+210_yourplhands,your (pl.) hands,,,sus manos (de ustedes),your (plur.) hands
+211_theirhands,their hands,,,sus manos (de ellos),their hands
+212_mybow,my bow,,,mi arco,my bow
+213_yourbow,your bow,,,tu arco,your (sing.) bow
+214_hisbow,his bow,,,su arco (de él),his bow
+215_ourbow,our bow,,,nuestro arco,our bow
+216_yourplurbow,your (plur.) bow,,,su arco (de ustedes),your (plur.) bow
+217_theirbow,their bow,,,su arco (de ellos),their bow
+218_big,big,1202,BIG,grande,big
+219_smalllittle,"small, little",1246,SMALL,pequeño,small
+220_cold,cold,1287,COLD,frío,cold
+221_hot,hot,1286,HOT,ealiente,hot
+222_good,good,1035,GOOD,bueno,good
+223_bad,bad,1292,BAD,malo,bad
+224_white,white,1335,WHITE,blanco,white
+225_black,black,163,BLACK,negro,black
+226_go,go!,695,GO,"vaya, ve!",go
+231_crownofhead,crown of head,1943,CROWN (OF HEAD),corona,crown of head
+232_frontteethincisors,"front teeth, incisors",442,FRONT TOOTH (INCISOR),dientes delanteros incivos,"front teeth, ineisors"
+233_tonguetip,tongue tip,443,TIP (OF TONGUE),punta de la lengua,tip of tongue
+234_longhair,long hair,444,LONG HAIR,pelo largo,long hair
+235_theneckregion,the neck region,1347,NAPE (OF NECK),garganta y cuello,the neck region
+236_adamsapple,Adam's apple,802,ADAM'S APPLE,nuez de la garganta,adam’s apple
+237_upperback,upper back,445,UPPER BACK,"espalda, parte superior",upper back
+238_forearm,forearm,446,LOWER ARM,antebrazo,lower arm
+239_wrist,wrist,799,WRIST,muñeca,wrist
+240_lowerleg,lower leg,447,LOWER LEG,pierna inferior,lower leg
+241_bodyhair,body hair,189,HAIR (BODY),el pelo del cuerpo,body hair
+242_stomach,stomach,819,STOMACH,estómago,stomach
+243_intestines,intestines,1991,INTESTINES,intestinos,intestines
+244_oldwoman,old woman,907,OLD WOMAN,viejita,old woman
+245_cloudsatrest,clouds at rest,1489,CLOUD,nubes quietas,clouds at rest
+246_stormclouds,storm clouds,448,STORM CLOUDS,nubes de tormenta,storm clouds
+247_cultivatedclearing,cultivated clearing,,,"roza, sementera",corn field
+248_stream,stream,947,STREAM,quebrada,stream
+249_pebbles,pebbles,961,PEBBLES,piedrecillas,pebbles
+250_hugerocks,huge rocks,,,rocas,huge rocks
+251_pathtrail,"path, trail",2252,PATH,"camino, sendero, trocha",path
+253_shelter,shelter,1678,HUT,rancho,shelter
+254_this,this,1214,THIS,este,this
+255_that,that,78,THAT,"eso, ese, aquel",that
+256_who,who,1235,WHO,quién,who
+257_what,what,1236,WHAT,que,what
+258_not,not,1240,NOT,no,not
+259_all,all,98,ALL,todos,all
+260_many,many,1198,MANY,muchos,many
+261_long,long,1203,LONG,largo,long
+262_bark,bark,1204,BARK,corteza,bark
+263_flesh,flesh,2259,FLESH,carne,flesh
+265_greaseanimalfat,"grease, animal fat",1282,FAT (FROM ANIMALS),grasa,"grease, animal fat"
+266_egg,egg,744,EGG,huevo,egg
+267_horn,horn,1393,HORN (ANATOMY),cuerno,horn
+268_feather,feather,1201,FEATHER,pluma,feather
+269_clawnail,"claw, nail",2128,CLAW OR NAIL,uña,"fingernail, claw"
+270_belly,belly,1251,BELLY,barriga,belly
+271_liver,liver,1224,LIVER,hígado,liver
+272_drink,drink,1401,DRINK,beber,drink
+273_eat,eat,1336,EAT,comer,eat
+274_bite,bite,1403,BITE,morder,bite
+275_see,see,1409,SEE,ver,see
+276_hear,hear,1408,HEAR,oir,hear
+277_know,know,1410,KNOW (SOMETHING),saber,know
+278_sleep,sleep,1585,SLEEP,dormir,sleep
+279_die,die,1494,DIE,morir,die
+280_kill,kill,1417,KILL,matar,kill
+281_swimnotbathe,swim (not bathe),1439,SWIM,nadar,swim
+282_fly,fly,1441,FLY (MOVE THROUGH AIR),volar,fly
+283_walk,walk,1443,WALK,andar,walk
+284_come,come,1446,COME,venir,come
+285_liedown,lie down,215,LIE DOWN,acostarse,lie down
+286_sitdown,sit down,1649,SIT DOWN,sentarse,sit
+287_stand,stand,1442,STAND,"ponerse en pie, de pie",stand
+288_give,give,1447,GIVE,dar,give
+289_say,say,1458,SAY,decir,say
+290_burn,burn,2102,BURN,"quemar, arder",burn
+291_mountain,mountain,639,MOUNTAIN,montaña,mountain
+292_red,red,156,RED,rojo,red
+293_green,green,1425,GREEN,verde,green
+294_yellow,yellow,1424,YELLOW,amarillo,yellow
+295_full,full,1429,FULL,lleno,full
+296_new,new,1231,NEW,nuevo,new
+297_round,round,1395,ROUND,redondo,round
+298_dry,dry,1398,DRY,seco,dry
+299_name,name,1405,NAME,nombre,name
+300_how,how,1239,HOW,cómo,how
+301_when,when,1238,WHEN,cuándo,when
+302_where,where,1237,WHERE,dónde,where
+303_here,here,136,HERE,aquí,here
+304_there,there,1937,THERE,allí,there
+305_other,other,197,OTHER,otro,other
+306_few,few,1242,FEW,pocos,few
+307_fog,fog,249,FOG,neblina,fog
+308_flow,flow,2003,FLOW,fluir,flow
+309_sea,sea,1474,SEA,mar,sea
+310_wet,wet,1726,WET,mojar,wet
+311_wash,wash,1453,WASH,lavar,wash
+312_worm,worm,1219,WORM,gusano,worm
+313_wing,wing,1257,WING,ala,wing
+314_fur,fur,580,FUR,piel peluda,fur
+315_navel,navel,1838,NAVEL,ombligo,navel
+316_saliva,saliva,1503,SALIVA,saliva,saliva
+317_milk,milk,635,MILK,leche,milk
+318_with,with,1340,WITH,con,with
+319_in,in,1460,IN,en,in
+320_at,at,1461,AT,"en, lugar definido",at
+321_if,if,1459,IF,siete,if
+322_ice,ice,617,ICE,hielo,ice
+323_snow,snow,784,SNOW,nieve,snow
+324_freeze,freeze,1431,FREEZE,helarse,freeze
+325_child,child,1304,CHILD (YOUNG HUMAN),niño,child
+326_dark,dark,706,DARK,oscuro,dark
+327_cut,cut,1432,CUT,cortar,cut
+328_wide,wide,1243,WIDE,ancho,wide
+329_narrow,narrow,1267,NARROW,"estrecho, angosto",narrow
+330_far,far,1406,FAR,lejos,far
+331_near,near,1942,NEAR,cerca,near
+332_thick,thick,1244,THICK,grueso,thick
+333_thin,thin,2308,THIN,delgado,thin
+334_short,short,1645,SHORT,corto,short
+335_heavy,heavy,1210,HEAVY,pesado,heavy
+336_dull,dull,379,BLUNT,embotado,dull
+337_sharp,sharp,1396,SHARP,afilado,sharp
+338_dirty,dirty,1230,DIRTY,sucio,dirty
+339_rotten,rotten,1728,ROTTEN,podrido,rotten
+340_smooth,smooth,1234,SMOOTH,liso,smooth
+341_straight,straight,1404,STRAIGHT,recto,straight
+342_correct,correct,1725,CORRECT (RIGHT),correcto,correct
+343_left,left,244,LEFT,ezquierdo,left
+344_right,right,1019,RIGHT,derecho,right
+345_old,old,1229,OLD,viejo,old man
+346_rub,rub,1449,RUB,frotar,rub
+347_pull,pull,1455,PULL,"jalar, arrastrar",pull
+348_push,push,1452,PUSH,empujar,push
+349_throw,throw,1456,THROW,echar,throw
+350_hit,hit,1433,HIT,golpear,hit
+351_split,split,1437,SPLIT,hender,split
+352_pierce,pierce,398,PIERCE,"punzar, chuzar",pierce
+353_dig,dig,1418,DIG,cavar,dig
+354_tie,tie,1917,TIE,atar,tie
+355_sew,sew,1457,SEW,coser,sew
+356_fall,fall,1280,FALL,caer,fall
+357_swell,swell,1573,SWELL,hinchar,swell
+358_think,think,2271,THINK,pensar,think
+359_sing,sing,1261,SING,cantar,sing
+360_smell,smell,1586,SMELL (PERCEIVE),oler,smell
+361_vomit,vomit,1278,VOMIT,vomitar,vomit
+362_suck,suck,1421,SUCK,chupar,suck
+363_blow,blow,175,BLOW (OF WIND),soplar,blow
+364_fear,fear,1419,FEAR (BE AFRAID),temer,fear
+365_tightensqueeze,"tighten, squeeze",1414,SQUEEZE,"apretar, exprimir","tighten, squeeze"
+366_hold,hold,1448,HOLD,sostener,hold
+367_down,down,1326,DOWN,abajo,down
+368_up,up,1591,UP,arriba,up
+369_ripe,ripe,178,RIPE,maduro,ripe
+370_dust,dust,2,DUST,polvo,dust
+371_alive,alive,1422,BE ALIVE,vivo,alive
+372_rope,rope,1218,ROPE,cuerda,rope

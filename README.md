@@ -10,7 +10,7 @@ Available online at https://gist.github.com/LinguList/7481097
 
 
 Conceptlists in Concepticon:
-- [Huber-1992-374](https://concepticon.clld.org/contributions/Huber-1992-374)
+- [Huber-1992-373](https://concepticon.clld.org/contributions/Huber-1992-373)
 ## Notes
 
 This dataset comprises 69 language varieties spoken in Columbia. The orthography profile was originally created by Jelena Prokić and further modified for our purposes.
@@ -27,11 +27,11 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 69
-- **Concepts:** 361
-- **Lexemes:** 26,726
+- **Concepts:** 359
+- **Lexemes:** 26,565
 - **Sources:** 1
 - **Synonymy:** 1.20
 - **Invalid lexemes:** 0
-- **Tokens:** 158,498
+- **Tokens:** 157,891
 - **Segments:** 109 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
 - **Inventory size (avg):** 32.99
