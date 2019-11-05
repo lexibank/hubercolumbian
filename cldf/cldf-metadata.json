@@ -4,7 +4,7 @@
     "dc:bibliographicCitation": "Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santaf\u00e9 de Bogota: Asociati\u00f3n Instituto Ling\u00fc\u00edstico de Verano.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Huber-1992-373"
+        "http://concepticon.clld.org/contributions/Huber-1992-375"
     ],
     "dc:identifier": "https://gist.github.com/LinguList/7481097",
     "dc:isVersionOf": null,
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:lexibank/hubercolumbian",
-            "dc:created": "v2.0.1-7-g0b9c87b"
+            "dc:created": "v2.0.1-8-g2e1dc92"
         },
         {
             "rdf:type": "prov:Entity",
@@ -30,7 +30,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "git@github.com:concepticon/concepticon-data",
-            "dc:created": "v2.1.0-122-g870e462"
+            "dc:created": "v2.1.0-137-g9d9504b"
         },
         {
             "rdf:type": "prov:Entity",
@@ -42,7 +42,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.3"
+            "dc:description": "3.7.4"
         },
         {
             "dc:title": "python-packages",
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 26565,
+            "dc:extent": 26726,
             "tableSchema": {
                 "columns": [
                     {
@@ -218,7 +218,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 359,
+            "dc:extent": 366,
             "tableSchema": {
                 "columns": [
                     {
@@ -247,7 +247,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Digital_Label"
+                        "name": "Gloss_in_digital_source"
                     }
                 ],
                 "primaryKey": [

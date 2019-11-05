@@ -12,7 +12,7 @@ from pylexibank.util import progressbar
 @attr.s
 class HConcept(Concept):
     Spanish = attr.ib(default=None)
-    Digital_Label = attr.ib(default=None)
+    Gloss_in_digital_source = attr.ib(default=None)
 
 
 class Dataset(qlc.QLC):
@@ -43,11 +43,11 @@ class Dataset(qlc.QLC):
                 Name=concept.english,
                 Concepticon_ID=concept.concepticon_id,
                 Concepticon_Gloss=concept.concepticon_gloss,
-                Digital_Label=concept.attributes["digital_label"],
+                Gloss_in_digital_source=concept.attributes["gloss_in_digital_source"],
                 Spanish=concept.attributes["spanish"],
             )
 
-            concept_lookup[concept.attributes["digital_label"]] = concept_id
+            concept_lookup[concept.attributes["gloss_in_digital_source"]] = concept_id
 
         def grouped_rows(wl):
             rows = [
@@ -64,8 +64,6 @@ class Dataset(qlc.QLC):
 
         for (language, concept), rows in progressbar(grouped_rows(wl)):
             iso = lids[language]
-            # Split the English component from the lexeme annotation for concept lookup.
-            c_eng = [f.lower() for f in concept.split("_")][1]
 
             args.writer.add_language(
                 ID=slug(language, lowercase=False),
@@ -75,13 +73,9 @@ class Dataset(qlc.QLC):
             )
 
             for i, (l, c, form, id_) in enumerate(rows):
-                # TODO: Discuss in issue.
-                if c_eng == "we" or c_eng == "it":
-                    continue
-
                 args.writer.add_form(
                     Language_ID=slug(language, lowercase=False),
-                    Parameter_ID=concept_lookup[c_eng],
+                    Parameter_ID=concept_lookup[concept],
                     Value=form,
                     Form=form,
                     Source=["Huber1992"],
