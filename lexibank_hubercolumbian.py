@@ -13,6 +13,7 @@ class CustomConcept(Concept):
     Spanish = attr.ib(default=None)
     Gloss_in_digital_source = attr.ib(default=None)
 
+
 @attr.s
 class CustomLanguage(Language):
     Longitude = attr.ib(default=None)
@@ -33,28 +34,27 @@ class Dataset(qlc.QLC):
         args.writer.add_sources()
 
         # get the language identifiers stored in wl._meta['doculect'] parsed from input file
-        language_lookup = args.writer.add_languages(
-                lookup_factory="Name_in_Source")
+        language_lookup = args.writer.add_languages(lookup_factory="Name_in_Source")
 
         concept_lookup = args.writer.add_concepts(
-                id_factory=lambda x: x.id.split('-')[-1]+'_'+slug(x.english),
-                lookup_factory='Name_in_Source')
-        
-        rows = [(doculect, concept, value, qlcid) for (
-            idx, doculect, concept, value, qlcid) in wl.iter_rows(
-            'counterpart_doculect',
-            'concept',
-            'counterpart',
-            'qlcid'
-            ) if doculect
-                not in ['English', 'Español']]
+            id_factory=lambda x: x.id.split("-")[-1] + "_" + slug(x.english),
+            lookup_factory="Name_in_Source",
+        )
 
-        for doculect, concept, value, qlcid in rows:
+        rows = [
+            (doculect, concept, value, qlcid)
+            for (idx, doculect, concept, value, qlcid) in wl.iter_rows(
+                "counterpart_doculect", "concept", "counterpart", "qlcid"
+            )
+            if doculect not in ["English", "Español"]
+        ]
+
+        for doculect, concept, value, qlcid in progressbar(rows):
             args.writer.add_form(
-                    Language_ID=language_lookup[doculect],
-                    Parameter_ID=concept_lookup[concept],
-                    Value=form,
-                    Form=form,
-                    Source=['Huber1992'],
-                    Local_ID=qlcid
-                    )
+                Language_ID=language_lookup[doculect],
+                Parameter_ID=concept_lookup[concept],
+                Value=form,
+                Form=form,
+                Source=["Huber1992"],
+                Local_ID=qlcid,
+            )
