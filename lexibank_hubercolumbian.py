@@ -38,7 +38,7 @@ class Dataset(qlc.QLC):
 
         concept_lookup = args.writer.add_concepts(
             id_factory=lambda x: x.id.split("-")[-1] + "_" + slug(x.english),
-            lookup_factory="Name_in_Source",
+            lookup_factory="Gloss_in_digital_source",
         )
 
         rows = [
