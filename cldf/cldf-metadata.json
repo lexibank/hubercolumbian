@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:lexibank/hubercolumbian",
-            "dc:created": "v2.0.1-8-g2e1dc92"
+            "dc:created": "v2.0.1-12-gd0211f2"
         },
         {
             "rdf:type": "prov:Entity",
@@ -30,7 +30,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "git@github.com:concepticon/concepticon-data",
-            "dc:created": "v2.1.0-137-g9d9504b"
+            "dc:created": "v2.1.0-130-g31e1901"
         },
         {
             "rdf:type": "prov:Entity",
@@ -42,7 +42,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.4"
+            "dc:description": "3.7.3"
         },
         {
             "dc:title": "python-packages",
@@ -208,6 +208,10 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Name_in_Source"
                     }
                 ],
                 "primaryKey": [
