@@ -53,8 +53,8 @@ class Dataset(qlc.QLC):
             args.writer.add_form(
                 Language_ID=language_lookup[doculect],
                 Parameter_ID=concept_lookup[concept],
-                Value=form,
-                Form=form,
+                Value=value,
+                Form=value,
                 Source=["Huber1992"],
                 Local_ID=qlcid,
             )
