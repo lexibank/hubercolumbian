@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/hubercolumbian",
-            "dc:created": "v2.0.1-11-g60079fb"
+            "dc:created": "v2.0.1-12-g12d4fdf"
         },
         {
             "rdf:type": "prov:Entity",
