@@ -1,4 +1,4 @@
-# Comparative Vocabulary
+# CLDF dataset derived from Huber and Reed's "Comparative Vocabulary" from 1992
 
 Cite the source dataset as
 
@@ -36,3 +36,14 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 - **Tokens:** 158,498
 - **Segments:** 109 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
 - **Inventory size (avg):** 32.99
+
+# Contributors
+
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Johann-Mattis List | @LinguList | | Maintainer
+Jelena Prokić | | orthography profile | Other
+Michael Cysouw | @cysouw | Digitization | Other
+Peter Bouda | | Digitization | Other
+
+

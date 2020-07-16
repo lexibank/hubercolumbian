@@ -80,7 +80,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish,Gloss_in_digital_source
 79_mat,mat,195,MAT,estera,ESTERA_MAT
 80_hammock,hammock,2019,HAMMOCK,hamaca,HAMACA_HAMMOCK
 81_bed,bed,1663,BED,"catre, cama de barbacoa","CATRE, CAMA DE BARBACOA_BED"
-82_cookingpot,cooking pot,1462,POT,olla,OLLA_COOKING POT
+82_cookingpot,cooking pot,3653,COOKING POT,olla,OLLA_COOKING POT
 83_cultivatedclearing,cultivated clearing,212,FIELD,"roza, sementera","ROZA, SEMENTERA_CULTIVATED CLEARING"
 84_village,village,930,VILLAGE,caserío,CASERÍO_VILLAGE
 85_pathtrail,"path, trail",2457,PATH OR ROAD,"camino, sendero, trocha","CAMINO, SENDERO, TROCHA_PATH, TRAIL"
@@ -342,7 +342,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish,Gloss_in_digital_source
 341_pull,pull,1455,PULL,"jalar, arrastrar","JALAR, HALAR_PULL"
 342_push,push,1452,PUSH,empujar,EMPUJAR_PUSH
 343_throw,throw,1456,THROW,echar,"BOTAR, TIRAR_THROW"
-344_hit,hit,1433,HIT,golpear,GOLPEAR_HIT
+344_hit,hit,353,STRIKE,golpear,GOLPEAR_HIT
 345_split,split,1437,SPLIT,hender,HENDER_SPLIT
 346_pierce,pierce,398,PIERCE,"punzar, chuzar",PUNZAR_PIERCE
 347_dig,dig,1418,DIG,cavar,CAVAR_DIG

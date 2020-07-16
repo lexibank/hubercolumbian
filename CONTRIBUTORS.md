@@ -1,8 +1,8 @@
 # Contributors
 
-Name | GitHub user | Role
---- | --- | ---
-Johann-Mattis List | @LinguList | maintainer
-Jelena Prokić | | orthography profile
-Michael Cysouw | @cysouw | digitization
-Peter Bouda | | digitization
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Johann-Mattis List | @LinguList | | Maintainer
+Jelena Prokić | | orthography profile | Other
+Michael Cysouw | @cysouw | Digitization | Other
+Peter Bouda | | Digitization | Other
