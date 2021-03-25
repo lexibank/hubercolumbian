@@ -4,7 +4,7 @@ Cite the source dataset as
 
 > Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santafé de Bogota: Asociatión Instituto Lingüístico de Verano.
 
-This dataset is licensed under a GPL-3.0 license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://gist.github.com/LinguList/7481097
 
@@ -22,7 +22,7 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 
 [![Build Status](https://travis-ci.org/lexibank/hubercolumbian.svg?branch=master)](https://travis-ci.org/lexibank/hubercolumbian)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 95%](https://img.shields.io/badge/Concepticon-95%25-green.svg "Concepticon: 95%")
+![Concepticon: 96%](https://img.shields.io/badge/Concepticon-96%25-green.svg "Concepticon: 96%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
@@ -41,7 +41,9 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 
 Name | GitHub user | Description | Role
 --- | --- | --- | ---
-Johann-Mattis List | @LinguList | | Maintainer
+Huber, R. Q. | | | Author
+Reed, R. B. | | | Author
+Johann-Mattis List | @LinguList | | Other 
 Jelena Prokić | | orthography profile | Other
 Michael Cysouw | @cysouw | Digitization | Other
 Peter Bouda | | Digitization | Other

@@ -7,10 +7,17 @@
     ],
     "creators": [
         {
-            "name": "Johann-Mattis List"
+            "name": "Huber, R. Q."
+        },
+        {
+            "name": "Reed, R. B."
         }
     ],
     "contributors": [
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
         {
             "name": "Jelena Proki\u0107",
             "type": "Other"
@@ -32,6 +39,6 @@
     "upload_type": "dataset",
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santaf\u00e9 de Bogota: Asociati\u00f3n Instituto Ling\u00fc\u00edstico de Verano.</p>\n</blockquote>",
     "license": {
-        "id": "GPL-3.0"
+        "id": "CC-BY-4.0"
     }
 }
