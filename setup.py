@@ -12,9 +12,7 @@ setup(
     py_modules=["lexibank_hubercolumbian"],
     include_package_data=True,
     zip_safe=False,
-    entry_points={
-        "lexibank.dataset": ["hubercolumbian=lexibank_hubercolumbian:Dataset"]
-    },
+    entry_points={"lexibank.dataset": ["hubercolumbian=lexibank_hubercolumbian:Dataset"]},
     install_requires=["pylexibank>=3.0"],
     extras_require={"test": ["pytest-cldf"]},
 )

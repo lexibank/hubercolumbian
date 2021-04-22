@@ -5,7 +5,6 @@ import lingpy
 from clldutils.misc import slug
 from pylexibank import Concept, Language
 from pylexibank.providers import qlc
-from pylexibank.util import progressbar
 
 
 @attr.s
