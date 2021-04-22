@@ -3876,7 +3876,6 @@ Guahibo-143_louse-1,huber1992/guahibo/PIOJO_LOUSE,Guahibo,143_louse,tarí̵to,ta
 Guahibo-144_mosquito-1,huber1992/guahibo/ZANCUDO_MOSQUITO,Guahibo,144_mosquito,wáesoto,wáesoto,w a e s o t o,,Huber1992,,,^ w á e s o t o $,default
 Guahibo-144_mosquito-2,huber1992/guahibo/ZANCUDO_MOSQUITO,Guahibo,144_mosquito,wáeseto,wáeseto,w a e s e t o,,Huber1992,,,^ w á e s e t o $,default
 Guahibo-145_termite-1,"huber1992/guahibo/COMEJÉN, HORMIGA BLANCA_TERMITE",Guahibo,145_termite,oɸóto,oɸóto,o ɸ o t o,,Huber1992,,,^ o ɸ ó t o $,default
-Guahibo-145_termite-2,"huber1992/guahibo/COMEJÉN, HORMIGA BLANCA_TERMITE",Guahibo,145_termite,etc,etc,e t c,,Huber1992,,,^ e t c $,default
 Guahibo-146_ant-1,huber1992/guahibo/HORMIGA_ANT,Guahibo,146_ant,amáito,amáito,a m a i t o,,Huber1992,,,^ a m á i t o $,default
 Guahibo-146_ant-2,huber1992/guahibo/HORMIGA_ANT,Guahibo,146_ant,pí̵bi̵to,pí̵bi̵to,p ɨ b ɨ t o,,Huber1992,,,^ p í̵ b i̵ t o $,default
 Guahibo-147_spider-1,huber1992/guahibo/ARAÑA_SPIDER,Guahibo,147_spider,hómobi̵to,hómobi̵to,h o m o b ɨ t o,,Huber1992,,,^ h ó m o b i̵ t o $,default
@@ -4131,8 +4130,7 @@ Guahibo-328_dark-3,huber1992/guahibo/OSCURO_DARK,Guahibo,328_dark,kírihai,kíri
 Guahibo-329_cut-1,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,ukúta,ukúta,u k u t a,,Huber1992,,,^ u k ú t a $,default
 Guahibo-329_cut-2,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,nikáta,nikáta,n i k a t a,,Huber1992,,,^ n i k á t a $,default
 Guahibo-329_cut-3,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,kaxiúta,kaxiúta,k a x i u t a,,Huber1992,,,^ k a x i ú t a $,default
-Guahibo-329_cut-4,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,etc,etc,e t c,,Huber1992,,,^ e t c $,default
-Guahibo-329_cut-5,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,thá:ba,thá:ba,t h aː b a,,Huber1992,,,^ t h á: b a $,default
+Guahibo-329_cut-4,huber1992/guahibo/CORTAR_CUT,Guahibo,329_cut,thá:ba,thá:ba,t h aː b a,,Huber1992,,,^ t h á: b a $,default
 Guahibo-330_wide-1,huber1992/guahibo/ANCHO_WIDE,Guahibo,330_wide,ajáiitabara,ajáiitabara,a j a iː t a b a r a,,Huber1992,,,^ a j á ii t a b a r a $,default
 Guahibo-331_narrow-1,huber1992/guahibo/ESTRECHO_NARROW,Guahibo,331_narrow,tsikiriháwajo:,tsikiriháwajo:,ts i k i r i h a w a j oː,,Huber1992,,,^ ts i k i r i h á w a j o: $,default
 Guahibo-332_far-1,huber1992/guahibo/LEJOS_FAR,Guahibo,332_far,tá:hi̵,tá:hi̵,t aː h ɨ,,Huber1992,,,^ t á: h i̵ $,default
@@ -13403,8 +13401,7 @@ Koreguaje-144_mosquito-1,huber1992/koreguaje/ZANCUDO_MOSQUITO,Koreguaje,144_mosq
 Koreguaje-145_termite-1,"huber1992/koreguaje/COMEJÉN, HORMIGA BLANCA_TERMITE",Koreguaje,145_termite,ʤuʤu,ʤuʤu,dʒ u dʒ u,,Huber1992,,,^ ʤ u ʤ u $,default
 Koreguaje-146_ant-1,huber1992/koreguaje/HORMIGA_ANT,Koreguaje,146_ant,pẽa,pẽa,p ẽ a,,Huber1992,,,^ p ẽ a $,default
 Koreguaje-146_ant-2,huber1992/koreguaje/HORMIGA_ANT,Koreguaje,146_ant,emu,emu,e m u,,Huber1992,,,^ e m u $,default
-Koreguaje-146_ant-3,huber1992/koreguaje/HORMIGA_ANT,Koreguaje,146_ant,etc,etc,e t c,,Huber1992,,,^ e t c $,default
-Koreguaje-146_ant-4,huber1992/koreguaje/HORMIGA_ANT,Koreguaje,146_ant,mekʰa,mekʰa,m e kʰ a,,Huber1992,,,^ m e kʰ a $,default
+Koreguaje-146_ant-3,huber1992/koreguaje/HORMIGA_ANT,Koreguaje,146_ant,mekʰa,mekʰa,m e kʰ a,,Huber1992,,,^ m e kʰ a $,default
 Koreguaje-147_spider-1,huber1992/koreguaje/ARAÑA_SPIDER,Koreguaje,147_spider,hĩ̵hi̵,hĩ̵hi̵,h ɨ̃ h ɨ,,Huber1992,,,^ h ĩ̵ h i̵ $,default
 Koreguaje-148_chiggoejiggerflea-1,"huber1992/koreguaje/NIGUA, PIGUE_CHIGGOE, JIGGER FLEA",Koreguaje,148_chiggoejiggerflea,suʔu,suʔu,s u ʔ u,,Huber1992,,,^ s u ʔ u $,default
 Koreguaje-149_bush-1,huber1992/koreguaje/MONTE_BUSH,Koreguaje,149_bush,airo,airo,a i r o,,Huber1992,,,^ a i r o $,default

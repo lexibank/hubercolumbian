@@ -20,7 +20,7 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/hubercolumbian.svg?branch=master)](https://travis-ci.org/lexibank/hubercolumbian)
+[![CLDF validation](https://github.com/lexibank/hubercolumbian/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/hubercolumbian/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 96%](https://img.shields.io/badge/Concepticon-96%25-green.svg "Concepticon: 96%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -29,11 +29,11 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 
 - **Varieties:** 69
 - **Concepts:** 366
-- **Lexemes:** 26,726
+- **Lexemes:** 26,723
 - **Sources:** 1
 - **Synonymy:** 1.18
 - **Invalid lexemes:** 0
-- **Tokens:** 158,498
+- **Tokens:** 158,489
 - **Segments:** 109 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
 - **Inventory size (avg):** 32.99
 

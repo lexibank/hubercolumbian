@@ -3,8 +3,11 @@ from pathlib import Path
 import attr
 import lingpy
 from clldutils.misc import slug
-from pylexibank import Concept, Language
+from pylexibank import Concept, Language, FormSpec
 from pylexibank.providers import qlc
+
+
+exclude = ["etc"]
 
 
 @attr.s
@@ -55,11 +58,14 @@ class Dataset(qlc.QLC):
         ]
 
         for doculect, concept, value, qlcid in rows:
-            args.writer.add_form(
-                Language_ID=language_lookup[doculect],
-                Parameter_ID=concept_lookup[concept],
-                Value=value,
-                Form=value,
-                Source=["Huber1992"],
-                Local_ID=qlcid,
-            )
+            if value in exclude:
+                continue
+            else:
+                args.writer.add_form(
+                    Language_ID=language_lookup[doculect],
+                    Parameter_ID=concept_lookup[concept],
+                    Value=value,
+                    Form=value,
+                    Source=["Huber1992"],
+                    Local_ID=qlcid,
+                )
