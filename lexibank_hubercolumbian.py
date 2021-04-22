@@ -3,7 +3,7 @@ from pathlib import Path
 import attr
 import lingpy
 from clldutils.misc import slug
-from pylexibank import Concept, Language, FormSpec
+from pylexibank import Concept, Language
 from pylexibank.providers import qlc
 
 
