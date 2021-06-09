@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/hubercolumbian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.0-5-g796f5e7",
+            "dc:created": "v3.0-6-g7bda8c5",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 26726,
+            "dc:extent": 26723,
             "tableSchema": {
                 "columns": [
                     {
