@@ -1,8 +1,14 @@
 # CLDF dataset derived from Huber and Reed's "Comparative Vocabulary" from 1992
 
-Cite the source dataset as
+## How to cite
 
-> Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santafé de Bogota: Asociatión Instituto Lingüístico de Verano.
+If you use these data please cite
+- the original source
+  > Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santafé de Bogota: Asociatión Instituto Lingüístico de Verano.
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -49,3 +55,10 @@ Michael Cysouw | @cysouw | Digitization | Other
 Peter Bouda | | Digitization | Other
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
