@@ -1,5 +1,7 @@
 # CLDF dataset derived from Huber and Reed's "Comparative Vocabulary" from 1992
 
+[![CLDF validation](https://github.com/lexibank/hubercolumbian/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/hubercolumbian/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -26,6 +28,7 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ## Statistics
 
 
+[![CLDF validation](https://github.com/lexibank/hubercolumbian/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/hubercolumbian/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 96%](https://img.shields.io/badge/Concepticon-96%25-green.svg "Concepticon: 96%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")

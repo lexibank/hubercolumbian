@@ -3,27 +3,26 @@ from pathlib import Path
 import attr
 import lingpy
 from clldutils.misc import slug
-from pylexibank import Concept, Language
+import pylexibank
 from pylexibank.providers import qlc
-
 
 exclude = ["etc"]
 
 
 @attr.s
-class CustomConcept(Concept):
+class CustomConcept(pylexibank.Concept):
     Spanish = attr.ib(default=None)
     Gloss_in_digital_source = attr.ib(default=None)
 
 
 @attr.s
-class CustomLanguage(Language):
+class CustomLanguage(pylexibank.Language):
     Longitude = attr.ib(default=None)
     Latitude = attr.ib(default=None)
     Name_in_Source = attr.ib(default=None)
 
 
-class Dataset(qlc.QLC):
+class Dataset(pylexibank.providers.qlc.QLC):
     dir = Path(__file__).parent
     id = "hubercolumbian"
     DSETS = ["huber1992.csv"]
