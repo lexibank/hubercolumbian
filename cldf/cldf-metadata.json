@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/hubercolumbian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.0-11-gbff075b",
+            "dc:created": "v3.0-12-gf9c8fdd",
             "dc:title": "Repository"
         },
         {
@@ -29,7 +29,7 @@
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.4.0-237-gf65e4b1",
+            "dc:created": "v2.5.0",
             "dc:title": "Concepticon"
         },
         {
