@@ -16,7 +16,7 @@
     "contributors": [
         {
             "name": "Johann-Mattis List",
-            "type": "Other"
+            "type": "Editor"
         },
         {
             "name": "Jelena Proki\u0107",
@@ -37,7 +37,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santaf\u00e9 de Bogota: Asociati\u00f3n Instituto Ling\u00fc\u00edstico de Verano.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigenous languages of Columbia]. Santa F\u00e9 de Bogota: Asociaci\u00f3n Instituto Ling\u00fc\u00edstico de Verano.</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }

@@ -28,6 +28,7 @@ class Dataset(pylexibank.providers.qlc.QLC):
     DSETS = ["huber1992.csv"]
     concept_class = CustomConcept
     language_class = CustomLanguage
+    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_makecldf(self, args):
         # column "counterpart_doculect" gives us the proper names of the doculects
