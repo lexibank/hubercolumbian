@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santaf\u00e9 de Bogota: Asociati\u00f3n Instituto Ling\u00fc\u00edstico de Verano.",
+    "dc:bibliographicCitation": "Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas ind\u00edgenas de Colombia [Comparative vocabulary. Selected words from the indigenous languages of Columbia]. Santa F\u00e9 de Bogota: Asociaci\u00f3n Instituto Ling\u00fc\u00edstico de Verano.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Huber-1992-375"
@@ -17,25 +17,25 @@
         {
             "rdf:about": "https://github.com/lexibank/hubercolumbian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.0.1-1-gafb03a3",
+            "dc:created": "v4.0.1-1-gb230310",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1.0",
+            "dc:created": "v3.2.0",
             "dc:title": "Concepticon"
         },
         {
             "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.2.0",
+            "dc:created": "v2.3.0",
             "dc:title": "CLTS"
         }
     ],

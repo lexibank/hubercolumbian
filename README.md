@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigeneous languages of Columbia]. Santafé de Bogota: Asociatión Instituto Lingüístico de Verano.
+  > Huber, R. Q. and Reed, R. B. 1992. Vocabulario comparativo: palabras selectas de lenguas indígenas de Colombia [Comparative vocabulary. Selected words from the indigenous languages of Columbia]. Santa Fé de Bogota: Asociación Instituto Lingüístico de Verano.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -35,8 +35,8 @@ This dataset comprises 69 language varieties spoken in Columbia. The orthography
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 69
-- **Concepts:** 366
+- **Varieties:** 69 (linked to 65 different Glottocodes)
+- **Concepts:** 366 (linked to 347 different Concepticon concept sets)
 - **Lexemes:** 26,723
 - **Sources:** 1
 - **Synonymy:** 1.18
@@ -51,7 +51,7 @@ Name | GitHub user | Description | Role
 --- | --- | --- | ---
 Huber, R. Q. | | | Author
 Reed, R. B. | | | Author
-Johann-Mattis List | @LinguList | | Other 
+Johann-Mattis List | @LinguList | | Editor 
 Jelena Prokić | | orthography profile | Other
 Michael Cysouw | @cysouw | Digitization | Other
 Peter Bouda | | Digitization | Other
