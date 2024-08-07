@@ -6,7 +6,6 @@
     "dc:format": [
         "http://concepticon.clld.org/contributions/Huber-1992-375"
     ],
-    "dc:identifier": "https://gist.github.com/LinguList/7481097",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
@@ -17,7 +16,7 @@
         {
             "rdf:about": "https://github.com/lexibank/hubercolumbian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.0.1-1-gb230310",
+            "dc:created": "v4.0.1-2-g5acfb0e",
             "dc:title": "Repository"
         },
         {

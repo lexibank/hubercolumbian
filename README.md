@@ -14,8 +14,6 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
-Available online at https://gist.github.com/LinguList/7481097
-
 
 Conceptlists in Concepticon:
 - [Huber-1992-375](https://concepticon.clld.org/contributions/Huber-1992-375)
